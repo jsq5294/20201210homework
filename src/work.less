@@ -1,0 +1,23 @@
+
+div{
+    width: 0;
+    height: 0;
+    float: left;
+}
+
+.mixin(@index,@size,@color,@dir){
+    div:nth-child(@{index}){
+
+        border:@size solid transparent;
+        border-@{dir}-color:@color;
+    }
+}
+
+.mixin(1, 50px, red,right);
+.mixin(2, 20px, blue,right);
+.mixin(3, 50px, red,top);
+.mixin(4, 20px, blue,top);
+.mixin(5, 50px, red,left);
+.mixin(6, 20px, blue,left);
+.mixin(7, 50px, red,bottom);
+.mixin(8, 20px, blue,bottom);

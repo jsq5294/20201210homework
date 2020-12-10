@@ -1,0 +1,1 @@
+import workLess from './work.less'

@@ -1,0 +1,37 @@
+div {
+  width: 0;
+  height: 0;
+  float: left;
+}
+div:nth-child(1) {
+  border: 50px solid transparent;
+  border-right-color: red;
+}
+div:nth-child(2) {
+  border: 20px solid transparent;
+  border-right-color: blue;
+}
+div:nth-child(3) {
+  border: 50px solid transparent;
+  border-top-color: red;
+}
+div:nth-child(4) {
+  border: 20px solid transparent;
+  border-top-color: blue;
+}
+div:nth-child(5) {
+  border: 50px solid transparent;
+  border-left-color: red;
+}
+div:nth-child(6) {
+  border: 20px solid transparent;
+  border-left-color: blue;
+}
+div:nth-child(7) {
+  border: 50px solid transparent;
+  border-bottom-color: red;
+}
+div:nth-child(8) {
+  border: 20px solid transparent;
+  border-bottom-color: blue;
+}
